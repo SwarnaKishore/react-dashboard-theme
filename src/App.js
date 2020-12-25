@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Button } from '@material-ui/core';
+import Dashboard from './Components/Dashboard';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <Button color="primary">Material UI</Button>;
+        <Dashboard></Dashboard>
         {/* <a
           className="App-link"
           href="https://reactjs.org"
